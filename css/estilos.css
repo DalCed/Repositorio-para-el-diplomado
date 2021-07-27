@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.titulo-principal h1{
+    text-align: center;
+    font-size: 7rem;
+    transition: all 1s ease-in-out;
+}
+
+.titulo-principal h1:hover {
+    cursor: pointer;
+    color: red;
+    transform: rotateX(180deg);
+}
